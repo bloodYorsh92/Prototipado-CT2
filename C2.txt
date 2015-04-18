@@ -1,0 +1,13 @@
+1)var timer:Timer = new Timer(500);
+	timer.addEventListener(TimerEvent.TIMER_COMPLETE,onComplete);
+	timer.start();
+	El evento se ejecutará o no, por qué?
+  ->el evento no se ejecuta porque el timer nunca termina.
+
+2)Si quiero agregar un evento de click a un objeto llamado mc, cuál es la sintaxis correcta?
+  ->mc.addEventListener(MouseEvent.CLICK,onClick);
+  
+
+3)Explicar diferencia entre Movieclip y Sprite
+  ->Sprite : imagen ESTATICA, sprite consumen entre 18-22% menos recursos que el movie clip.
+  ->Movie clip: imagen con LINEA DE TIEMPO  
